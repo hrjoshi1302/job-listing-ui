@@ -1,0 +1,145 @@
+/* Main card container */
+#box
+{
+  width:230px;
+  height:290px;
+  border-radius: 40px;
+  background-color:white;
+  margin:20px;
+  box-shadow: 10px 20px 30px rgb(200, 200, 200);
+}
+
+/* Inner spacing for content */
+.innerbox
+{
+  padding:20px;
+}
+
+/* Bookmark button styling */
+#bookmark
+{
+  border:none;
+  background-color: white;
+}
+
+/* Link styling (company name) */
+a
+{
+  text-decoration: none;
+  color:rgb(92, 92, 92);
+}
+
+/* Section for company info and job details */
+.nameinfo
+{
+  color: black;
+  display: flex;
+  font-size: 17px;
+  flex-direction: column;
+}
+
+/* Bottom section: price + apply button */
+.box_bottom
+{
+  color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -2px;
+  margin-left: -20px;
+}
+
+/* Apply button styling */
+#buttonpay
+{
+  border: none;
+  border-radius: 6px;
+  padding: 7px 10px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Price section spacing */
+.price_box
+{
+  padding:17px;
+}
+
+/* Divider line */
+hr
+{
+  width: 90%;
+  height:2px;
+  border:none;
+  background-color: rgb(238, 238, 238);
+}
+
+/* Top section: logo + bookmark */
+.info
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+/* Company logo styling */
+img
+{
+  width:39px;
+  height:39px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 100%;
+  object-fit: cover;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Company name + post time container */
+.innertxtbox
+{
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content:space-evenly;
+  margin-left: -60px;
+  margin-top: 5px;
+}
+
+/* Post time text */
+.innertxt
+{
+  font-size:12px;
+  color:rgb(89, 89, 89);
+  margin-top: 3px;
+  margin-left: -42px;
+}
+
+/* Job tags container */
+.job 
+{
+  padding:10px;
+  margin-left: -10px;
+  font-size: 11px;
+  color:rgb(66, 66, 66);
+  display: flex;
+  flex-direction: row;
+}
+
+/* Individual job tag box */
+.jobbox
+{
+  border: none;
+  border-radius: 7px;
+  padding: 5px 8px;
+  background-color: rgb(237, 237, 237);
+  margin-left: 5px;
+}
+
+/* Job role/title styling */
+.role
+{
+  margin-left: 4px;
+}
