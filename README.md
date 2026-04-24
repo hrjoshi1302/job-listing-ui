@@ -84,7 +84,7 @@ npm run dev
 
 ---
 
-## 🙌 Author
+## Author
 
 **Himal Joshi**
 
