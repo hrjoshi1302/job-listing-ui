@@ -1,10 +1,10 @@
-# 💼 Job Card UI (React)
+# Job Card UI (React)
 
 A clean and responsive Job Card UI built using React. This project demonstrates dynamic rendering using props and JSON data, along with a structured and reusable component-based design.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Dynamic card rendering using **map()**
 * Data-driven UI using **JSON (array of objects)**
@@ -14,7 +14,7 @@ A clean and responsive Job Card UI built using React. This project demonstrates 
 
 ---
 
-## 🧠 Concepts Used
+## Concepts Used
 
 * React Components
 * Props (data passing)
@@ -24,7 +24,7 @@ A clean and responsive Job Card UI built using React. This project demonstrates 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash id="9u7x2p"
 src/
@@ -40,13 +40,13 @@ src/
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![Project Screenshot](./job-card-ui.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * React (Vite)
 * JavaScript (ES6)
@@ -55,7 +55,7 @@ src/
 
 ---
 
-## 📌 How It Works
+## How It Works
 
 * Job data is stored in a JSON-like structure (`cardsData`)
 * Data is divided into rows using `slice()`
@@ -64,7 +64,7 @@ src/
 
 ---
 
-## ⚡ Installation & Setup
+## Installation & Setup
 
 ```bash id="d2n8kx"
 git clone https://github.com/hrjoshi1302/job-card-ui.git
@@ -75,7 +75,7 @@ npm run dev
 
 ---
 
-## 💯 Future Improvements
+## Future Improvements
 
 * Make UI fully responsive 📱
 * Add hover effects and animations 🎨
