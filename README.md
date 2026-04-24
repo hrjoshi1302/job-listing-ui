@@ -1,6 +1,6 @@
-# Job Card UI (React)
+# Job Listing UI (React)
 
-A clean and responsive Job Card UI built using React. This project demonstrates dynamic rendering using props and JSON data, along with a structured and reusable component-based design.
+A clean and responsive Job Listing UI built using React. This project demonstrates dynamic rendering using props and JSON data, along with a structured and reusable component-based design.
 
 ---
 
