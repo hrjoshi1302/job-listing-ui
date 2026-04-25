@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Components/Card'
-import { cardsData } from './data/carddData'
+import { cardData } from './data/CardData'
 import './App.css'
 
 // CODE IS CLEAN, LESS COMPLEX AND ALSO WORKS
@@ -19,7 +19,7 @@ const App = () => {
           {
             // slice(0,3) → take first 3 items from cardsData
             // map() → loop through each item and render Card component
-            cardsData.slice(0,3).map((item)=>(
+            cardData.slice(0,3).map((item)=>(
               // key helps React identify each element uniquely
               // data prop sends entire object to Card component
               <Card key={item.company} data={item}/>
@@ -31,7 +31,7 @@ const App = () => {
           {
             // slice(3,7) → take next set of items (index 3 to 6)
             // map() → render remaining cards in second row
-            cardsData.slice(3,7).map((item)=>(
+            cardData.slice(3,7).map((item)=>(
               <Card key={item.company} data={item}/>
             ))
           }

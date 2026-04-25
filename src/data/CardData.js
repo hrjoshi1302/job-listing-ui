@@ -1,6 +1,6 @@
 
 // HERE JSON USED WITH PROPS
-export const cardsData = [
+export const cardData = [
   {
     job1: "Part-Time",
     job2: "Senior-Level",
