@@ -75,15 +75,6 @@ npm run dev
 
 ---
 
-## Future Improvements
-
-* Make UI fully responsive 📱
-* Add hover effects and animations 🎨
-* Integrate real API data 🌐
-* Add filtering/search functionality 🔍
-
----
-
 ## Author
 
 **Himal Joshi**
