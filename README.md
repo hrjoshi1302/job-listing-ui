@@ -29,13 +29,16 @@ A clean and responsive Job Listing UI built using React. This project demonstrat
 ```bash id="9u7x2p"
 src/
  ├── components/
- │    ├── box.jsx        # Card component
- │    ├── box.css        # Card styles
+ │    ├── box.jsx            # Card component
+ │    ├── box.css            # Card styles
  │
- ├── App.jsx             # Main UI logic
- ├── App.css             # Layout styles
- ├── index.css           # Global styles
- ├── main.jsx            # Entry point
+ ├── data/
+ │    ├── CardData.js        # Card data (JSON-like structure)
+ │
+ ├── App.jsx                 # Main UI logic
+ ├── App.css                 # Layout styles
+ ├── index.css               # Global styles
+ ├── main.jsx                # Entry point
 ```
 
 ---
