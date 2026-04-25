@@ -1,5 +1,6 @@
 import React from 'react'
-import Card, { cardsData } from './Components/Card'
+import Card from './Components/Card'
+import { cardsData } from './data/carddData'
 import './App.css'
 
 // CODE IS CLEAN, LESS COMPLEX AND ALSO WORKS
